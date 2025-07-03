@@ -1,12 +1,12 @@
 # Harshit’s Terminal Portfolio
 
 Welcome to my interactive terminal-styled portfolio site!  
-I'm Harshit Sethi — a pre-college student about to join IIIT Allahabad (IT '29) and an IITM BS Data Science learner.
+I'm Harshit Sethi — a pre-college student about to join IIIT Allahabad (IT '29).
 
 🚀 **Tech Stack**:  
-- C++, Git, HTML/CSS, JavaScript  
+- Git, HTML/CSS, JavaScript  
 - Terminal UI design  
-- Learning: Competitive Programming, Full Stack Dev, ML
+- Learning: C++, Competitive Programming, Full Stack Dev, ML, Video Editing
 
 💡 **What this site does**  
 This project simulates a terminal interface where you can explore my bio, social links, project plans, and future experiments — all via typed commands.

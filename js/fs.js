@@ -1,5 +1,5 @@
 const aboutMe = `Hey, I’m Harshit Sethi — a pre-college student joining IIIT Allahabad.
-I'm passionate about C++, Git, and Competitive Programming, aiming to join AlgoWing.
+I'm passionate about C++, Git, and Competitive Programming.
 This terminal site is my way of showcasing what I’m learning even before college starts.
 
 College for me is a fresh start — I’ve mostly been on my own until now, but I’m excited to learn,

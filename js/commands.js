@@ -19,7 +19,7 @@ const cat = [
 
 const whois = [
   "Hey, I’m Harshit Sethi — a pre-college student about to join IIIT Allahabad.",
-  "I'm passionate about C++, Git, and Competitive Programming (aiming for AlgoWing 🧠).",
+  "I'm passionate about C++, Git, and Competitive Programming.",
   "",
   "This terminal-styled portfolio reflects my journey — built even before college started.",
   "College is a new chapter for me — I’m ready to grow, collaborate, and be more open to learning and connecting with people.",
@@ -30,7 +30,7 @@ const whois = [
 
 
 var whoami = [
-  "Harshit Sethi – IIITA IT ’29 | AlgoWing aspirant | Curious learner & new beginnings enthusiast 🌱",
+  "Harshit Sethi – IIITA IT ’29 | Curious learner & new beginnings enthusiast 🌱",
   "<br>"
 ];
 
@@ -54,7 +54,7 @@ const sudo = [
 
 const projects = [
   "<br>",
-  "Still curating... most projects are offline, on GitHub, or confidential.",
+  "Still learning... most projects are offline, on GitHub, or confidential.",
   "<br>"
 ];
 
