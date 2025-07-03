@@ -151,8 +151,6 @@ const commandMap = {
     newTab(email);
   },
 
-    iitmds: () => loopLines(iitmds, "headerLine margin", 80),
-
 
   clear: () =>
     setTimeout(() => {
@@ -168,6 +166,9 @@ const commandMap = {
   date: () => {
     addLine(`Date: ${getDateTime()}`, "headerLine", 80);
   },
+
+  missions: () =>
+     loopLines(missions, "headerLine margin", 80),
 
 
   neofetch: () => {

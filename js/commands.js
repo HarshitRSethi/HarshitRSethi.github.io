@@ -20,20 +20,20 @@ const cat = [
 const whois = [
   "Hey, I’m Harshit Sethi — a pre-college student about to join IIIT Allahabad.",
   "I'm passionate about C++, Git, and Competitive Programming (aiming for AlgoWing 🧠).",
-  "I’m also enrolled in the IITM BS Data Science program.",
   "",
-  "This terminal-styled portfolio will evolve with my journey in ML, cybersecurity, and full stack development.",
-  "If you're reading this — I built this before college even started 😤.",
+  "This terminal-styled portfolio reflects my journey — built even before college started.",
+  "College is a new chapter for me — I’m ready to grow, collaborate, and be more open to learning and connecting with people.",
+  "",
+  "Let’s see where this goes 🚀",
   "<br>"
 ];
-
-
 
 
 var whoami = [
-  "Harshit Sethi – IIITA IT ’29 | IITM DS learner | AlgoWing aspirant",
+  "Harshit Sethi – IIITA IT ’29 | AlgoWing aspirant | Curious learner & new beginnings enthusiast 🌱",
   "<br>"
 ];
+
 
 
 
@@ -51,11 +51,6 @@ const sudo = [
   "<br>"
 ];
 
-const iitmds = [
-  "I'm going to be enrolled in the IITM BS Data Science program. Excited for my DS journey!",
-  "<br>"
-];
-
 
 const projects = [
   "<br>",
@@ -69,6 +64,16 @@ const meme = [
   "<br>"
 ];
 
+const missions = [
+  "<span class='command'>🎯 Current Missions:</span>",
+  `1. C++ Learning – <a href="https://www.w3schools.com/cpp/default.asp" target="_blank">W3Schools</a> (🔥 Highest priority)`,
+  `2. Video Editing – <a href="https://www.youtube.com/playlist?list=PLnLRZNxrwwEILafCIa4HiswG29SxQYh0m" target="_blank">Casey Faris</a>`,
+  `3. Personal Finance – <a href="https://www.khanacademy.org/college-careers-more/personal-finance" target="_blank">Khan Academy</a>`,
+  `4. Social Media Literacy – <a href="https://www.khanacademy.org/college-careers-more/social-media-challenges-and-opportunities" target="_blank">Khan Academy</a>`,
+  "<br>"
+];
+
+
 
 
 const help = [
@@ -80,12 +85,13 @@ const help = [
   '<span class="command">history</span>        View command history',
   '<span class="command">neofetch</span>       Display system information',
   '<span class="command">projects</span>       View coding projects',
-  '<span class="command">iitmds</span>         Info about my IITM DS track',
   '<span class="command">social</span>         Display social networks',
   '<span class="command">theme</span>          Toggle between available themes',
   '<span class="command">themes</span>         List all themes (default, daylight, matrix)',
   '<span class="command">uptime</span>         Show how long you’ve been here',
   '<span class="command">meme</span>           View a secret meme',
+  '<span class="command">missions</span>       Things to learn before college',
+  '<span class="command">whois</span>          Who is Harshit Sethi',
   "<br>",
 ];
 
@@ -125,7 +131,7 @@ function getThemeDisplayName() {
 const banner = [
   "<span class='color2'>  ▄     ▄   </span>",
   "<span class='color2'> ▄ ▀▄   ▄▀ ▄</span>     • OS:     HarshitOS 1.0",
-  "<span class='color2'> █▄█▀███▀█▄█</span>     • Host:   harshitsethi.github.io",
+  "<span class='color2'> █▄█▀███▀█▄█</span>     • Host:   harshitrsethi.github.io",
   "<span class='color2'> ▀█████████▀</span>     • Theme:  {{theme}}",
   "<span class='color2'>  ▄▀   ▀▄   </span>     • Uptime: " + getUptime(),
   "<br>",

@@ -1,9 +1,13 @@
 const aboutMe = `Hey, I’m Harshit Sethi — a pre-college student joining IIIT Allahabad.
 I'm passionate about C++, Git, and Competitive Programming, aiming to join AlgoWing.
-I'm also enrolled in the IITM BS Data Science program.
 This terminal site is my way of showcasing what I’m learning even before college starts.
+
+College for me is a fresh start — I’ve mostly been on my own until now, but I’m excited to learn,
+collaborate, and interact more with like-minded people.
+
 Expect projects, experiments, and a lot more soon.
 Let’s learn, build, and grow — one command at a time.`;
+
 
 
 const socials = `youtube: https://www.youtube.com/@HarshitSethi-s4o/
