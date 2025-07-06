@@ -73,6 +73,15 @@ const missions = [
   "<br>"
 ];
 
+const achievements = [
+  "<br>",
+  "• Scored 92% in CBSE Class 10 Board Exams",
+  "• Scored 87% in Class 12 (with only 5 days of prep for PE & English)",
+  "• 99.78 percentile in JEE Mains (AIR 3398, GEN)",
+  "• Joined IIIT Allahabad, IT Branch (Batch of 2029)",
+  "• Created & launched this terminal-style website before college",
+  "<br>"
+];
 
 
 
@@ -92,6 +101,8 @@ const help = [
   '<span class="command">meme</span>           View a secret meme',
   '<span class="command">missions</span>       Things to learn before college',
   '<span class="command">whois</span>          Who is Harshit Sethi',
+  '<span class="command">achievements</span>   View academic and personal highlights',
+
   "<br>",
 ];
 

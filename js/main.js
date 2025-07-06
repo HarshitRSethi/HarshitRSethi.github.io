@@ -163,6 +163,8 @@ const commandMap = {
     addLine(`Uptime: ${getUptime()}`, "headerLine", 80);
   },
 
+  achievements: () => loopLines(achievements, "headerLine margin", 80),
+
   date: () => {
     addLine(`Date: ${getDateTime()}`, "headerLine", 80);
   },
@@ -177,6 +179,7 @@ const commandMap = {
 },
    meme: () => loopLines(meme, "headerLine margin", 80),
 };
+
 
 
 function commander(input) {
