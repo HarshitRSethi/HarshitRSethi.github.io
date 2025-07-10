@@ -6,14 +6,12 @@ I'm Harshit Sethi — a pre-college student about to join IIIT Allahabad (IT '29
 🚀 **Tech Stack**:  
 - Git, HTML/CSS, JavaScript  
 - Terminal UI design  
-<<<<<<< HEAD
 - Learning: C++, Competitive Programming, Full Stack Dev, ML, Video Editing
 =======
 - Learning: Competitive Programming, Full Stack Dev, ML, Video Editing
->>>>>>> a83f848e1f2c707085b8391c64af835e164f1d10
 
 💡 **What this site does**  
-This project simulates a terminal interface where you can explore my bio, social links, project plans, and future experiments — all via typed commands.
+This project simulates a terminal interface where you can explore my social links, project plans, and future experiments — all via typed commands.
 
 📂 Commands include: `help`, `whois`, `missions`, `projects`, `email`, `social`, `theme`, and more.
 
@@ -21,6 +19,6 @@ This project simulates a terminal interface where you can explore my bio, social
 - Email: harshitrsethi@gmail.com  
 - GitHub: [HarshitRSethi](https://github.com/HarshitRSethi)  
 - YouTube: [@HarshitSethi-s4o](https://www.youtube.com/@HarshitSethi-s4o/)  
-- LinkedIn: [harshit-sethi](https://www.linkedin.com/in/harshit-sethi-629013368/)
+- LinkedIn: [harshit-sethi](https://www.linkedin.com/in/harshitrsethi)
 
 🧠 Made with ❤️ and curiosity before college even started.
