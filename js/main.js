@@ -114,6 +114,17 @@ const commandMap = {
     newTab(rust);
   },
 
+  tab: () => {
+  const homepage = localStorage.getItem("myTabUrl") || "https://www.google.com";
+  addLine(`Opening ${homepage}...`, "headerLine", 80);
+  newTab(homepage);
+},
+
+    chatgpt: () => {
+    addLine("Opening Chat-GPT...", "headerLine", 0);
+    newTab(chatgpt);
+  },
+
   youtube: () => {
     addLine("Opening YouTube...", "headerLine", 80);
     newTab(youtube);
