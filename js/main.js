@@ -125,6 +125,33 @@ const commandMap = {
     newTab(chatgpt);
   },
 
+  whatsapp: () => {
+    addLine("Opening WhatsApp...", "headerLine", 0);
+    newTab(whatsapp);
+  },
+
+  telegram: () => {
+    addLine("Opening Telegram...", "headerLine", 0);
+    newTab(telegram);
+  },
+
+    note: () => {
+    addLine("Opening Google Keep...", "headerLine", 0);
+    newTab(note);
+  },
+
+    chess: () => {
+    addLine("Opening Chess...", "headerLine", 0);
+    newTab(chess);
+  },
+
+    college: () => {
+    addLine("Opening College's Website...", "headerLine", 0);
+    newTab(college);
+  },
+
+
+
   youtube: () => {
     addLine("Opening YouTube...", "headerLine", 80);
     newTab(youtube);

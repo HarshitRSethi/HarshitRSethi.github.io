@@ -3,7 +3,11 @@ const linkedin = "https://www.linkedin.com/in/harshit-sethi-629013368/";
 const github = "https://github.com/HarshitRSethi/";
 const email = "mailto:harshitrsethi@gmail.com";
 const chatgpt = "https://chatgpt.com/?model=auto";
-
+const whatsapp ="https://web.whatsapp.com/";
+const telegram ="https://web.telegram.org/a/";
+const note ="https://keep.google.com/u/2/#home";
+const chess = "https://www.chess.com/home";
+const college = "https://www.iiita.ac.in/";
 
 
 
