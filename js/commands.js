@@ -55,7 +55,7 @@ const sudo = [
 
 const projects = [
   "<br>",
-  "Still learning... most projects are offline, on GitHub, or confidential.",
+  "Still learning... most projects are on GitHub or confidential.",
   "<br>"
 ];
 
@@ -67,10 +67,9 @@ const meme = [
 
 const missions = [
   "<span class='command'>🎯 Current Missions:</span>",
-  `1. C++ Learning – <a href="https://www.w3schools.com/cpp/default.asp" target="_blank">W3Schools</a> (🔥 Highest priority)`,
-  `2. Video Editing – <a href="https://www.youtube.com/playlist?list=PLnLRZNxrwwEILafCIa4HiswG29SxQYh0m" target="_blank">Casey Faris</a>`,
-  `3. Personal Finance – <a href="https://www.khanacademy.org/college-careers-more/personal-finance" target="_blank">Khan Academy</a>`,
-  `4. Social Media Literacy – <a href="https://www.khanacademy.org/college-careers-more/social-media-challenges-and-opportunities" target="_blank">Khan Academy</a>`,
+  `1. C++ Learning – <a href="https://youtu.be/8jLOx1hD3_o?si=kpPVoGNeOW4dfzqw" target="_blank">W3Schools</a> (🔥 Highest priority)`,
+  `2. Personal Finance – <a href="https://www.khanacademy.org/college-careers-more/personal-finance" target="_blank">Khan Academy</a>`,
+  `3. Social Media Literacy – <a href="https://www.khanacademy.org/college-careers-more/social-media-challenges-and-opportunities" target="_blank">Khan Academy</a>`,
   "<br>"
 ];
 
@@ -91,15 +90,15 @@ const help = [
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">clearhistory</span>   Clear saved command history',
   '<span class="command">date</span>           Show current date and time',
-  '<span class="command">email</span>          Show E-mail',
+  '<span class="command">email</span>          Write an E-mail to Harshit',
   '<span class="command">history</span>        View command history',
   '<span class="command">neofetch</span>       Display system information',
   '<span class="command">projects</span>       View coding projects',
   '<span class="command">social</span>         Display social networks',
   '<span class="command">theme</span>          Toggle between available themes',
   '<span class="command">themes</span>         List all themes (default, daylight, matrix)',
-  '<span class="command">uptime</span>         Show how long you’ve been here',
-  '<span class="command">meme</span>           View a secret meme',
+  '<span class="command">uptime</span>         Show how long ago this site was made',
+  '<span class="command">meme</span>           View a meme',
   '<span class="command">missions</span>       Things to learn before college',
   '<span class="command">whois</span>          Who is Harshit Sethi',
   '<span class="command">achievements</span>   View academic and personal highlights',
