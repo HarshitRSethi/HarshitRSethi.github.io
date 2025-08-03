@@ -3,78 +3,68 @@ const linkedin = "https://www.linkedin.com/in/harshit-sethi-629013368/";
 const github = "https://github.com/HarshitRSethi/";
 const email = "mailto:harshitrsethi@gmail.com";
 const chatgpt = "https://chatgpt.com/?model=auto";
-const whatsapp ="https://web.whatsapp.com/";
-const telegram ="https://web.telegram.org/a/";
-const note ="https://keep.google.com/u/2/#home";
+const whatsapp = "https://web.whatsapp.com/";
+const telegram = "https://web.telegram.org/a/";
+const note = "https://keep.google.com/u/2/#home";
 const chess = "https://www.chess.com/home";
 const college = "https://www.iiita.ac.in/";
 
+const ls = ["about.txt     github.txt    linkedin.txt", "youtube.txt", "<br>"];
 
-
-const ls = [
-  "about.txt     github.txt    linkedin.txt",
-  "youtube.txt",
-  "<br>"
-];
-
-const cat = [
-  "print files on the standard output",
-  "<br>"
-];
+const cat = ["print files on the standard output", "<br>"];
 
 const whois = [
   "Hey, I’m Harshit Sethi — a pre-college student about to join IIIT Allahabad.",
-  "I'm passionate about C++, Git, and Competitive Programming.",
+  "I'm passionate about Technology, Productivity, and Competitive Programming.",
   "",
   "This terminal-styled portfolio reflects my journey — built even before college started.",
   "College is a new chapter for me — I’m ready to grow, collaborate, and be more open to learning and connecting with people.",
   "",
   "Let’s see where this goes 🚀",
-  "<br>"
+  "<br>",
 ];
-
 
 var whoami = [
   "Harshit Sethi – IIITA IT ’29 | Curious learner & new beginnings enthusiast 🌱",
-  "<br>"
+  "<br>",
 ];
-
-
-
-
 
 const social = [
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/HarshitSethi-s4o</a>',
-  'github         <a href="' + github + '" target="_blank">github/HarshitRSethi</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/harshit-sethi</a>',
-  "<br>"
+  'youtube        <a href="' +
+    youtube +
+    '" target="_blank">youtube/HarshitSethi-s4o</a>',
+  'github         <a href="' +
+    github +
+    '" target="_blank">github/HarshitRSethi</a>',
+  'linkedin       <a href="' +
+    linkedin +
+    '" target="_blank">linkedin/harshit-sethi</a>',
+  "<br>",
 ];
-
 
 const sudo = [
   '<span class="command">sudo</span>           you are not allowed to use root privileges',
-  "<br>"
+  "<br>",
 ];
-
 
 const projects = [
   "<br>",
-  "Still learning... most projects are on GitHub or confidential.",
-  "<br>"
+  "Still learning... most projects are on GitHub or are confidential",
+  "<br>",
 ];
 
 const meme = [
   "You shouldn't have typed that 😈",
   "<img src='https://media.tenor.com/_4YgA77ExHEAAAAC/rickroll-rick-ashley.gif' width='320' alt='rickroll gif'>",
-  "<br>"
+  "<br>",
 ];
 
 const missions = [
   "<span class='command'>🎯 Current Missions:</span>",
-  `1. C++ Learning – <a href="https://youtu.be/8jLOx1hD3_o?si=kpPVoGNeOW4dfzqw" target="_blank">W3Schools</a> (🔥 Highest priority)`,
+  `1. Harvard's CS-50 – <a href="https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home" target="_blank">EDX</a> (🔥 Highest priority)`,
   `2. Personal Finance – <a href="https://www.khanacademy.org/college-careers-more/personal-finance" target="_blank">Khan Academy</a>`,
   `3. Social Media Literacy – <a href="https://www.khanacademy.org/college-careers-more/social-media-challenges-and-opportunities" target="_blank">Khan Academy</a>`,
-  "<br>"
+  "<br>",
 ];
 
 const achievements = [
@@ -84,10 +74,9 @@ const achievements = [
   "• 99.78 percentile in JEE Mains (AIR 3398, GEN)",
   "• Joined IIIT Allahabad, IT Branch (Batch of 2029)",
   "• Created & launched this terminal-style website before college",
-  "<br>"
+  "• Created a mini Cat Football Game",
+  "<br>",
 ];
-
-
 
 const help = [
   '<span class="command">help</span>           You obviously already know what this does',
@@ -110,7 +99,6 @@ const help = [
   "<br>",
 ];
 
-
 const sessionStart = new Date("2025-06-22T15:35:00Z");
 
 function getUptime() {
@@ -122,7 +110,6 @@ function getUptime() {
   return `${days}d ${hr}h ${min}m ${sec}s`;
 }
 
-
 function getDateTime() {
   return new Intl.DateTimeFormat("en-US", {
     dateStyle: "full",
@@ -130,18 +117,15 @@ function getDateTime() {
   }).format(new Date());
 }
 
-
 function getThemeDisplayName() {
   const theme = localStorage.getItem("theme") || "default";
   const themeDisplayNames = {
     default: "Default",
     daylight: "Daylight",
-    matrix: "Matrix"
+    matrix: "Matrix",
   };
   return themeDisplayNames[theme] || "Default";
 }
-
-
 
 const banner = [
   "<span class='color2'>  ▄     ▄   </span>",
@@ -151,8 +135,5 @@ const banner = [
   "<span class='color2'>  ▄▀   ▀▄   </span>     • Uptime: " + getUptime(),
   "<br>",
   "<span class='color2'>Welcome to Harshit’s interactive terminal.</span>",
-  "<span class='color2'>Type</span> <span class='command'>'help'</span> <span class='color2'>to see available commands.</span>"
+  "<span class='color2'>Type</span> <span class='command'>'help'</span> <span class='color2'>to see available commands.</span>",
 ];
-
-
-
