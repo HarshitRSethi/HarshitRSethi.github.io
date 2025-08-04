@@ -1,5 +1,6 @@
 const youtube = "https://www.youtube.com/@HarshitSethi-s4o/";
-const linkedin = "https://www.linkedin.com/in/harshit-sethi-629013368/";
+const linkedin =
+  "https://www.linkedin.com/in/harshit-sethi-https://www.linkedin.com/in/harshitrsethi/";
 const github = "https://github.com/HarshitRSethi/";
 const email = "mailto:harshitrsethi@gmail.com";
 const chatgpt = "https://chatgpt.com/?model=auto";
