@@ -1,6 +1,5 @@
 const youtube = "https://www.youtube.com/@HarshitSethi-s4o/";
-const linkedin =
-  "https://www.linkedin.com/in/harshit-sethi-https://www.linkedin.com/in/harshitrsethi/";
+const linkedin = "https://www.linkedin.com/in/harshitrsethi/";
 const github = "https://github.com/HarshitRSethi/";
 const email = "mailto:harshitrsethi@gmail.com";
 const chatgpt = "https://chatgpt.com/?model=auto";
@@ -50,7 +49,7 @@ const sudo = [
 
 const projects = [
   "<br>",
-  "Still learning... most projects are on GitHub or are confidential",
+  "Still learning... most projects are on GitHub, LinkedIn or are confidential",
   "<br>",
 ];
 

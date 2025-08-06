@@ -5,7 +5,7 @@ I'm Harshit Sethi — a pre-college student about to join IIIT Allahabad (IT '29
 
 🚀 **Tech Stack**:
 
-- Git, HTML/CSS, Scratch
+- Git, HTML/CSS, Scratch, C
 - Terminal UI design
 - Learning: Programming, Full Stack Dev, ML
 
