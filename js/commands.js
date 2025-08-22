@@ -59,14 +59,6 @@ const meme = [
   "<br>",
 ];
 
-const missions = [
-  "<span class='command'>🎯 Current Missions:</span>",
-  `1. Harvard's CS-50 – <a href="https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home" target="_blank">EDX</a> (🔥 Highest priority)`,
-  `2. Personal Finance – <a href="https://www.khanacademy.org/college-careers-more/personal-finance" target="_blank">Khan Academy</a>`,
-  `3. Social Media Literacy – <a href="https://www.khanacademy.org/college-careers-more/social-media-challenges-and-opportunities" target="_blank">Khan Academy</a>`,
-  "<br>",
-];
-
 const achievements = [
   "<br>",
   "• Scored 92% in CBSE Class 10 Board Exams",
@@ -81,7 +73,6 @@ const achievements = [
 const help = [
   '<span class="command">help</span>           You obviously already know what this does',
   '<span class="command">clear</span>          Clear terminal',
-  '<span class="command">clearhistory</span>   Clear saved command history',
   '<span class="command">date</span>           Show current date and time',
   '<span class="command">email</span>          Write an E-mail to Harshit',
   '<span class="command">history</span>        View command history',
@@ -92,7 +83,6 @@ const help = [
   '<span class="command">themes</span>         List all themes (default, daylight, matrix)',
   '<span class="command">uptime</span>         Show how long ago this site was made',
   '<span class="command">meme</span>           View a meme',
-  '<span class="command">missions</span>       Things to learn before college',
   '<span class="command">whois</span>          Who is Harshit Sethi',
   '<span class="command">achievements</span>   View academic and personal highlights',
 
