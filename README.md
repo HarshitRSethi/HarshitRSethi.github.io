@@ -1,7 +1,7 @@
 # Harshit’s Terminal Portfolio
 
 Welcome to my interactive terminal-styled portfolio site!  
-I'm Harshit Sethi — a pre-college student about to join IIIT Allahabad (IT '29).
+I'm Harshit Sethi — a first year college student at IIIT Allahabad (IT '29).
 
 🚀 **Tech Stack**:
 

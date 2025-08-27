@@ -14,7 +14,7 @@ const ls = ["about.txt     github.txt    linkedin.txt", "youtube.txt", "<br>"];
 const cat = ["print files on the standard output", "<br>"];
 
 const whois = [
-  "Hey, I’m Harshit Sethi — a pre-college student about to join IIIT Allahabad.",
+  "Hey, I’m Harshit Sethi — a first year college student at IIIT Allahabad.",
   "I'm passionate about Technology, Productivity, and Competitive Programming.",
   "",
   "This terminal-styled portfolio reflects my journey — built even before college started.",
