@@ -13,6 +13,8 @@ const ls = ["about.txt     github.txt    linkedin.txt", "youtube.txt", "<br>"];
 
 const cat = ["print files on the standard output", "<br>"];
 
+const rollno = ["IIT2025003", "<br>"];
+
 const whois = [
   "Hey, I’m Harshit Sethi — a first year college student at IIIT Allahabad.",
   "I'm passionate about Technology, Productivity, and Competitive Programming.",
@@ -66,7 +68,6 @@ const achievements = [
   "• 99.78 percentile in JEE Mains (AIR 3398, GEN)",
   "• Joined IIIT Allahabad, IT Branch (Batch of 2029)",
   "• Created & launched this terminal-style website before college",
-  "• Created a mini Cat Football Game",
   "<br>",
 ];
 
@@ -85,6 +86,7 @@ const help = [
   '<span class="command">meme</span>           View a meme',
   '<span class="command">whois</span>          Who is Harshit Sethi',
   '<span class="command">achievements</span>   View academic and personal highlights',
+  '<span class="command">rollno</span>         My IIITA enrollment/roll number',
 
   "<br>",
 ];

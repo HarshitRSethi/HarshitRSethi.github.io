@@ -1,9 +1,8 @@
 let before = document.getElementById("before");
 let liner = document.getElementById("liner");
-let command = document.getElementById("typer"); 
-let textarea = document.getElementById("texter"); 
+let command = document.getElementById("typer");
+let textarea = document.getElementById("texter");
 let terminal = document.getElementById("terminal");
-
 
 let git = 0;
 let pw = false;
@@ -20,24 +19,27 @@ try {
 }
 
 function setTheme(themeName) {
-  document.documentElement.setAttribute('data-theme', themeName);
-  localStorage.setItem('theme', themeName);
+  document.documentElement.setAttribute("data-theme", themeName);
+  localStorage.setItem("theme", themeName);
 }
 
 function initTheme() {
-  const savedTheme = localStorage.getItem('theme') || 'default';
+  const savedTheme = localStorage.getItem("theme") || "default";
   setTheme(savedTheme);
 }
 
 function toggleTheme() {
-  const current = localStorage.getItem('theme') || 'default';
-  const next = current === 'default' ? 'daylight' : current === 'daylight' ? 'matrix' : 'default';
+  const current = localStorage.getItem("theme") || "default";
+  const next =
+    current === "default"
+      ? "daylight"
+      : current === "daylight"
+      ? "matrix"
+      : "default";
   setTheme(next);
 }
 
 initTheme();
-
-
 
 window.addEventListener("keyup", enterKey);
 
@@ -51,7 +53,7 @@ textarea.value = "";
 command.innerHTML = textarea.value;
 
 function enterKey(e) {
-  const {key} = e;
+  const { key } = e;
 
   if (e.ctrlKey && key === "c") {
     addLine(`^C`, "error", 0);
@@ -62,7 +64,7 @@ function enterKey(e) {
   if (key === "µ") {
     location.reload();
   } // keyCode 181 (rare usage)
-  
+
   if (key === "Enter") {
     const input = command.innerHTML.trim();
     if (input) {
@@ -78,7 +80,6 @@ function enterKey(e) {
     typeIt(textarea);
   }
 
-  
   if (key === "ArrowUp" && git > 0) {
     textarea.value = commands[--git];
     command.innerHTML = textarea.value;
@@ -88,8 +89,6 @@ function enterKey(e) {
     command.innerHTML = textarea.value;
   }
 }
-
-
 
 const commandMap = {
   help: () => loopLines(help, "headerLine margin", 80),
@@ -104,7 +103,6 @@ const commandMap = {
     addLine("Available themes: default, daylight, matrix", "headerLine", 80);
   },
 
-
   whois: () => loopLines(whois, "headerLine margin", 80),
 
   whoami: () => loopLines(whoami, "headerLine margin", 80),
@@ -114,13 +112,16 @@ const commandMap = {
     newTab(rust);
   },
 
-  tab: () => {
-  const homepage = localStorage.getItem("myTabUrl") || "https://www.google.com";
-  addLine(`Opening ${homepage}...`, "headerLine", 80);
-  newTab(homepage);
-},
+  rollno: () => loopLines(rollno, "headerLine margin", 80),
 
-    chatgpt: () => {
+  tab: () => {
+    const homepage =
+      localStorage.getItem("myTabUrl") || "https://www.google.com";
+    addLine(`Opening ${homepage}...`, "headerLine", 80);
+    newTab(homepage);
+  },
+
+  chatgpt: () => {
     addLine("Opening Chat-GPT...", "headerLine", 0);
     newTab(chatgpt);
   },
@@ -135,22 +136,20 @@ const commandMap = {
     newTab(telegram);
   },
 
-    note: () => {
+  note: () => {
     addLine("Opening Google Keep...", "headerLine", 0);
     newTab(note);
   },
 
-    chess: () => {
+  chess: () => {
     addLine("Opening Chess...", "headerLine", 0);
     newTab(chess);
   },
 
-    college: () => {
+  college: () => {
     addLine("Opening College's Website...", "headerLine", 0);
     newTab(college);
   },
-
-
 
   youtube: () => {
     addLine("Opening YouTube...", "headerLine", 80);
@@ -185,10 +184,13 @@ const commandMap = {
   },
 
   email: () => {
-    addLine(`Opening mailto:<a href="${email}">${email}</a>...`, "headerLine", 80);
+    addLine(
+      `Opening mailto:<a href="${email}">${email}</a>...`,
+      "headerLine",
+      80
+    );
     newTab(email);
   },
-
 
   clear: () =>
     setTimeout(() => {
@@ -207,23 +209,21 @@ const commandMap = {
     addLine(`Date: ${getDateTime()}`, "headerLine", 80);
   },
 
-  missions: () =>
-     loopLines(missions, "headerLine margin", 80),
-
+  missions: () => loopLines(missions, "headerLine margin", 80),
 
   neofetch: () => {
-  const themedBanner = banner.map(line => line.replace("{{theme}}", getThemeDisplayName()));
-  loopLines(themedBanner, "headerLine", 80);
-},
-   meme: () => loopLines(meme, "headerLine margin", 80),
+    const themedBanner = banner.map((line) =>
+      line.replace("{{theme}}", getThemeDisplayName())
+    );
+    loopLines(themedBanner, "headerLine", 80);
+  },
+  meme: () => loopLines(meme, "headerLine margin", 80),
 };
-
-
 
 function commander(input) {
   const [cmd, ...args] = input.trim().split(" ");
   const arg = args.join(" ");
-  
+
   if (cmd === "cd") {
     return cd(arg);
   }
@@ -232,14 +232,17 @@ function commander(input) {
   }
 
   const fn = commandMap[cmd.toLowerCase()];
-  fn ? fn() : addLine(`Command not found. Type <span class="cliCommand">'help'</span>.`, "error", 100);
+  fn
+    ? fn()
+    : addLine(
+        `Command not found. Type <span class="cliCommand">'help'</span>.`,
+        "error",
+        100
+      );
 }
 
-
-
-
 function newTab(link) {
-  setTimeout(function() {
+  setTimeout(function () {
     window.open(link, "_blank");
   }, 500);
 }
@@ -254,7 +257,7 @@ function addLine(text, style, time) {
       t += text.charAt(i);
     }
   }
-  setTimeout(function() {
+  setTimeout(function () {
     var next = document.createElement("p");
     next.innerHTML = t;
     next.className = style;
@@ -266,7 +269,7 @@ function addLine(text, style, time) {
 }
 
 function loopLines(name, style, time) {
-  name.forEach(function(item, index) {
+  name.forEach(function (item, index) {
     addLine(item, style, index * time);
   });
 }
