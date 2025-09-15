@@ -27,7 +27,7 @@ const whois = [
 ];
 
 var whoami = [
-  "Harshit Sethi – IIITA IT ’29 | Curious learner & new beginnings enthusiast 🌱",
+  "Harshit Sethi – First Year IT Student @ IIIT-A | Learning C++ & DSA| Tech Enthusiast",
   "<br>",
 ];
 
