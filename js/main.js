@@ -93,8 +93,6 @@ function enterKey(e) {
 const commandMap = {
   help: () => loopLines(help, "headerLine margin", 80),
 
-  pwd: () => addLine(currentDir, "headerLine", 80),
-
   theme: () => {
     toggleTheme();
     addLine("Theme changed!", "headerLine", 80);
@@ -106,11 +104,6 @@ const commandMap = {
   whois: () => loopLines(whois, "headerLine margin", 80),
 
   whoami: () => loopLines(whoami, "headerLine margin", 80),
-
-  rustbook: () => {
-    loopLines(rustbook, "headerLine margin", 80);
-    newTab(rust);
-  },
 
   rollno: () => loopLines(rollno, "headerLine margin", 80),
 
@@ -124,11 +117,6 @@ const commandMap = {
   chatgpt: () => {
     addLine("Opening Chat-GPT...", "headerLine", 0);
     newTab(chatgpt);
-  },
-
-  whatsapp: () => {
-    addLine("Opening WhatsApp...", "headerLine", 0);
-    newTab(whatsapp);
   },
 
   telegram: () => {
@@ -209,8 +197,6 @@ const commandMap = {
     addLine(`Date: ${getDateTime()}`, "headerLine", 80);
   },
 
-  missions: () => loopLines(missions, "headerLine margin", 80),
-
   neofetch: () => {
     const themedBanner = banner.map((line) =>
       line.replace("{{theme}}", getThemeDisplayName())
@@ -223,13 +209,6 @@ const commandMap = {
 function commander(input) {
   const [cmd, ...args] = input.trim().split(" ");
   const arg = args.join(" ");
-
-  if (cmd === "cd") {
-    return cd(arg);
-  }
-  if (cmd === "pwd") {
-    return addLine(currentDir, "headerLine", 80);
-  }
 
   const fn = commandMap[cmd.toLowerCase()];
   fn

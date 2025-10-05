@@ -1,5 +1,5 @@
 const aboutMe = `Hey, I’m Harshit Sethi — a first year college student at IIIT Allahabad.
-I'm passionate about C, Git, and Competitive Programming.
+I'm passionate about C++, Git, and Competitive Programming.
 This terminal site is my way of showcasing what I’m learning even before college starts.
 
 College for me is a fresh start — I’ve mostly been on my own until now, but I’m excited to learn,
@@ -8,9 +8,9 @@ collaborate, and interact more with like-minded people.
 Expect projects, experiments, and a lot more soon.
 Let’s learn, build, and grow — one command at a time.`;
 
-const socials = `youtube: https://www.youtube.com/@HarshitSethi-s4o/
-linkedin: https://www.linkedin.com/in/harshit-sethi-629013368/
-github:   https://github.com/HarshitRSethi/`;
+const socials = `linkedin: https://www.linkedin.com/in/harshit-sethi-629013368/
+github:   https://github.com/HarshitRSethi/
+youtube: https://www.youtube.com/@HarshitSethi-s4o/`;
 
 const fs = {
   "/": {
