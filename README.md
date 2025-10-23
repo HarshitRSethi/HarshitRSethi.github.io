@@ -5,9 +5,9 @@ I'm Harshit Sethi — a first year college student at IIIT Allahabad (IT '29).
 
 🚀 **Tech Stack**:
 
-- Git, HTML/CSS, Scratch, C
+- Git, HTML/CSS, Scratch, C, C++, Python
 - Terminal UI design
-- Learning: C++ Programming, Full Stack Dev
+- Learning: Python Programming, C++ Programming
 
 💡 **What this site does**  
 This project simulates a terminal interface where you can explore my social links, project plans, and future experiments — all via typed commands.

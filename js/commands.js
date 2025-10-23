@@ -6,7 +6,7 @@ const chatgpt = "https://chatgpt.com/?model=auto";
 const whatsapp = "https://web.whatsapp.com/";
 const telegram = "https://web.telegram.org/a/";
 const note = "https://keep.google.com/u/2/#home";
-const chess = "https://www.chess.com/home";
+const chess = "https://www.chess.com/member/h_sethi";
 const college = "https://www.iiita.ac.in/";
 
 const ls = ["about.txt     github.txt    linkedin.txt", "youtube.txt", "<br>"];
@@ -27,7 +27,7 @@ const whois = [
 ];
 
 var whoami = [
-  "Harshit Sethi – First Year IT Student @ IIIT-A | Learning C++ & DSA| Tech Enthusiast",
+  "Harshit Sethi – First Year IT Student @ IIIT-A | Learning Python & C++| Tech Enthusiast",
   "<br>",
 ];
 
