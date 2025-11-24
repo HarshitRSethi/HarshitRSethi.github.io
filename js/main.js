@@ -151,6 +151,26 @@ const commandMap = {
     newTab(linkedin);
   },
 
+  cc: () => {
+    addLine("Opening CodeChef...", "headerLine", 0);
+    newTab(cc);
+  },
+
+  codechef: () => {
+    addLine("Opening CodeChef...", "headerLine", 0);
+    newTab(cc);
+  },
+
+  cf: () => {
+    addLine("Opening CodeForces...", "headerLine", 0);
+    newTab(cf);
+  },
+
+  codeforces: () => {
+    addLine("Opening CodeForces...", "headerLine", 0);
+    newTab(cf);
+  },
+
   github: () => {
     addLine("Opening GitHub...", "headerLine", 0);
     newTab(github);

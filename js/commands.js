@@ -8,6 +8,8 @@ const telegram = "https://web.telegram.org/a/";
 const note = "https://keep.google.com/u/2/#home";
 const chess = "https://www.chess.com/member/h_sethi";
 const college = "https://www.iiita.ac.in/";
+const cc = "https://www.codechef.com/users/harshitrsethi";
+const cf = "https://codeforces.com/profile/harshitrsethi";
 
 const ls = ["about.txt     github.txt    linkedin.txt", "youtube.txt", "<br>"];
 
@@ -41,6 +43,12 @@ const social = [
   'linkedin       <a href="' +
     linkedin +
     '" target="_blank">linkedin/harshit-sethi</a>',
+  'codechef       <a href="' +
+    cc +
+    '" target="_blank">codechef/users/harshitrsethi</a>',
+  'codeforces     <a href="' +
+    cf +
+    '" target="_blank">codeforces/profile/harshitrsethi</a>',
   "<br>",
 ];
 
